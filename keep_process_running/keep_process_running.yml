@@ -1,0 +1,7 @@
+options:
+  process_name:
+    name: Process Name
+    notes: The full name of the process to keep running.
+  restart_action:
+    name: Restart Action
+    notes: The full command to restart the process, if not running. If left blank, the Process Name will be used.

@@ -1,0 +1,5 @@
+options:
+  feed:
+    name: Feed Name
+    notes: The name of the feed. Awareness must be activated.
+

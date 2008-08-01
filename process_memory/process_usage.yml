@@ -1,0 +1,13 @@
+options:
+  command_name:
+    name: Command Name
+    notes: The name of the command to pull statistics for.
+    default: mongrel_rails
+  max_memory_usage:
+    name: Max Memory Usage (MB)
+    notes: If process memory is larger than this amount, an alert is generated.
+    default: 10
+  ps_command:
+    name: The Process Status (ps) Command
+    notes: The command with options. The default works on most systems.
+    default: ps axucww

@@ -1,0 +1,14 @@
+Rails Session Monitoring Plugin
+=====================
+Created by [Highgroove Studios LLC](http://www.highgroove.com)
+
+Compatibility 
+-------------
+Works fully on Linux and OSX. 
+
+Functionality
+-------------
+Given a path to a Rails application, this plugin returns the total number of sessions and the number of sessions 
+that haven't been updated a specified number of days. 
+
+This requires database-based sessions storage.

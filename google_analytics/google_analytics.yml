@@ -1,0 +1,12 @@
+options:
+  user:
+  password:
+  account:
+    name: Account
+    notes: The name of the Google Analytics Account
+  profile:
+    name: Profile
+    notes: The name of the profile
+  offset:
+    name: Offset
+    notes: Time in hours that should be subtracted from UTC when grabbing the date

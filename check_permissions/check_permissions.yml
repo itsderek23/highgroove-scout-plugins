@@ -1,0 +1,13 @@
+options:
+  directory:
+    name: Directory
+    notes: The directory to monitor
+  owner:
+    name: Owner
+    notes: The expected login name for file owners
+  group:
+    name: Group
+    notes: The expected login name for file groups
+  mode:
+    name: Mode
+    notes: "The permissions expected for files (format: rwxr--r--)"

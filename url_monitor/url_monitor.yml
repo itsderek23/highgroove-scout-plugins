@@ -1,0 +1,5 @@
+options:
+  url:
+    name: Url
+    notes: The full URL (including http://) of the URL to monitor.
+    default: "http://www.scoutapp.com/"

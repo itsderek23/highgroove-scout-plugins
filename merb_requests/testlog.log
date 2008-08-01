@@ -1,0 +1,850 @@
+ ~ Request: /clients/2ce718a1-7ce1-4d0d-9f53-77598e3c87a3/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.022537, :action_time=>0.022076, :before_filters_time=>0.002133, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/2ce718a1-7ce1-4d0d-9f53-77598e3c87a3/plugins/718/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"718", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ {:dispatch_time=>0.02668, :action_time=>0.025577, :before_filters_time=>0.00738, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/e165c829-3ef9-4add-9fc7-8e187592daff/plugins.scout
+ ~ Params: {}
+ ~ {:dispatch_time=>0.033942, :action_time=>0.033515, :before_filters_time=>0.002109, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/e165c829-3ef9-4add-9fc7-8e187592daff/plugins/123/reports.scout
+ ~ Params: {"report"=>{"plugin_id"=>"123", "data"=>{"average_request_length"=>"0.13", "slow_request_count"=>"0", "request_count"=>"606"}}}
+ ~ {:dispatch_time=>0.040875, :action_time=>0.039791, :before_filters_time=>0.007206, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/e165c829-3ef9-4add-9fc7-8e187592daff/plugins/125/reports.scout
+ ~ Params: {"report"=>{"plugin_id"=>"125", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.023981, :action_time=>0.023025, :before_filters_time=>0.007264, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/60b5d8bd-da14-4fe7-b4cb-b4b7e9942594/plugins.scout
+ ~ Params: {"version"=>"1.1.3"}
+ ~ {:dispatch_time=>0.022903, :action_time=>0.022418, :before_filters_time=>0.001906, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/e165c829-3ef9-4add-9fc7-8e187592daff/plugins/127/reports.scout
+ ~ Params: {"report"=>{"plugin_id"=>"127", "data"=>{"last_minute"=>"0.18", "last_fifteen_minutes"=>"0.11", "last_five_minutes"=>"0.13"}}}
+ ~ {:dispatch_time=>0.027118, :action_time=>0.026078, :before_filters_time=>0.007169, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/3297f8dd-fd51-4679-a4f9-fc567db609b7/plugins/566/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"566", "data"=>{"uptime"=>"109 days"}}}
+ ~ {:dispatch_time=>0.019736, :action_time=>0.018825, :before_filters_time=>0.00698, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/f116cd88-6e7f-4f9c-8553-ec79ba00d092/plugins/724/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"724", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.024408, :action_time=>0.023399, :before_filters_time=>0.007107, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/f116cd88-6e7f-4f9c-8553-ec79ba00d092/plugins/727/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"727", "data"=>{"command"=>"ruby", "memory"=>"31"}}}
+ ~ {:dispatch_time=>0.023767, :action_time=>0.022786, :before_filters_time=>0.007445, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/48868ce8-e301-47a4-86bc-53b02469f997/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.029773, :action_time=>0.0293, :before_filters_time=>0.002587, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/7932b890-745b-4019-9650-f8f1070f888d/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.028985, :action_time=>0.028519, :before_filters_time=>0.002181, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/0b6c4d77-c6b6-4eb7-85a8-bf7b3b8347ab/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.033438, :action_time=>0.032978, :before_filters_time=>0.002424, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/9673b782-9b9f-4d3e-a4f7-e099e58c7602/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.037837, :action_time=>0.037368, :before_filters_time=>0.002558, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/ccff02db-a1ff-4668-9f6e-54fdf4f7831b/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.042041, :action_time=>0.041577, :before_filters_time=>0.002244, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/7932b890-745b-4019-9650-f8f1070f888d/plugins/821/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"821", "data"=>{"size"=>"15G", "avail"=>"13G", "used"=>"2.1G", "capacity"=>"14%"}}}
+ ~ {:dispatch_time=>0.057283, :action_time=>0.0561, :before_filters_time=>0.009226, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/c19192d5-3a43-430f-abd2-e91373e57557/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.053509, :action_time=>0.053044, :before_filters_time=>0.004896, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/ce1b219c-917f-4fbd-9eb5-0b9d2371dda6/plugins.scout
+ ~ Params: {"version"=>"1.1.3"}
+ ~ {:dispatch_time=>0.063611, :action_time=>0.063151, :before_filters_time=>0.003977, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/e3cfae2a-5006-406c-b575-8044f043e530/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.028969, :action_time=>0.027645, :before_filters_time=>0.002412, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/48868ce8-e301-47a4-86bc-53b02469f997/plugins/911/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"911", "data"=>{"command"=>"ruby", "memory"=>"35"}}}
+ ~ {:dispatch_time=>0.024983, :action_time=>0.023979, :before_filters_time=>0.007884, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/ccff02db-a1ff-4668-9f6e-54fdf4f7831b/plugins/936/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"936", "data"=>{"size"=>"15G", "avail"=>"13G", "used"=>"1.7G", "capacity"=>"12%"}}}
+ ~ {:dispatch_time=>0.031332, :action_time=>0.030148, :before_filters_time=>0.007686, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/7932b890-745b-4019-9650-f8f1070f888d/plugins/728/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"728", "data"=>{"command"=>"ruby", "memory"=>"39"}}}
+ ~ {:dispatch_time=>0.037519, :action_time=>0.036376, :before_filters_time=>0.008678, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/c19192d5-3a43-430f-abd2-e91373e57557/plugins/852/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"852", "data"=>{"size"=>"15G", "avail"=>"14G", "used"=>"1.5G", "capacity"=>"10%"}}}
+ ~ {:dispatch_time=>0.038869, :action_time=>0.037545, :before_filters_time=>0.015326, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/f2a6fa83-9c99-4b30-abc3-9fd2ab764fb8/plugins/860/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"860", "data"=>{"average_request_length"=>"0.02", "slow_request_count"=>"0", "request_count"=>"133"}}}
+ ~ {:dispatch_time=>0.048584, :action_time=>0.047498, :before_filters_time=>0.007625, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/48868ce8-e301-47a4-86bc-53b02469f997/plugins/912/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"912", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.029028, :action_time=>0.028008, :before_filters_time=>0.008021, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/7b773e36-ba15-4d71-9fd9-7d1f763acade/plugins/924/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"924", "data"=>{"command"=>"ruby", "memory"=>"48"}}}
+ ~ {:dispatch_time=>0.027378, :action_time=>0.026307, :before_filters_time=>0.008547, :after_filters_time=>2.5e-05}
+ ~ 
+
+ ~ Request: /clients/22e8f445-075a-4576-b87b-55e837d49897/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.029442, :action_time=>0.029009, :before_filters_time=>0.002382, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/f57eb02d-4012-41be-80e6-c19425eb758a/plugins/843/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"843", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.072129, :action_time=>0.071129, :before_filters_time=>0.008101, :after_filters_time=>2.6e-05}
+ ~ 
+
+ ~ Request: /clients/ccff02db-a1ff-4668-9f6e-54fdf4f7831b/plugins/937/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"937", "data"=>{"command"=>"ruby", "memory"=>"43"}}}
+ ~ {:dispatch_time=>0.073767, :action_time=>0.072715, :before_filters_time=>0.024052, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/f2a6fa83-9c99-4b30-abc3-9fd2ab764fb8/plugins/861/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"861", "data"=>{"uptime"=>"46 day(s)"}}}
+ ~ {:dispatch_time=>0.04585, :action_time=>0.044839, :before_filters_time=>0.015634, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/0b6c4d77-c6b6-4eb7-85a8-bf7b3b8347ab/plugins/849/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"849", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.039268, :action_time=>0.037457, :before_filters_time=>0.019884, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/e3cfae2a-5006-406c-b575-8044f043e530/plugins/863/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"863", "data"=>{"command"=>"ruby", "memory"=>"51"}}}
+ ~ {:dispatch_time=>0.053978, :action_time=>0.052967, :before_filters_time=>0.012563, :after_filters_time=>2.6e-05}
+ ~ 
+
+ ~ Request: /clients/7932b890-745b-4019-9650-f8f1070f888d/plugins/722/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"722", "data"=>{"average_request_length"=>"0.03", "slow_request_count"=>"0", "request_count"=>"21"}}}
+ ~ {:dispatch_time=>0.057903, :action_time=>0.054883, :before_filters_time=>0.010181, :after_filters_time=>2.4e-05}
+ ~ 
+
+ ~ Request: /clients/22e8f445-075a-4576-b87b-55e837d49897/plugins/836/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"836", "data"=>{"size"=>"15G", "avail"=>"12G", "used"=>"2.5G", "capacity"=>"17%"}}}
+ ~ {:dispatch_time=>0.05914, :action_time=>0.057942, :before_filters_time=>0.019213, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/c19192d5-3a43-430f-abd2-e91373e57557/plugins/855/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"855", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ {:dispatch_time=>0.028384, :action_time=>0.027323, :before_filters_time=>0.007906, :after_filters_time=>2.5e-05}
+ ~ 
+
+ ~ Request: /clients/48868ce8-e301-47a4-86bc-53b02469f997/plugins/914/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"914", "data"=>{"uptime"=>"2 day(s)"}}}
+ ~ {:dispatch_time=>0.028756, :action_time=>0.0278, :before_filters_time=>0.00738, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/ad13300a-2bf1-4846-81da-db72a7a9ee01/plugins/834/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"834", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ {:dispatch_time=>0.027536, :action_time=>0.026381, :before_filters_time=>0.007626, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/ccff02db-a1ff-4668-9f6e-54fdf4f7831b/plugins/939/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"939", "data"=>{"uptime"=>"39 day(s)"}}}
+ ~ {:dispatch_time=>0.02387, :action_time=>0.022146, :before_filters_time=>0.007659, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/9673b782-9b9f-4d3e-a4f7-e099e58c7602/plugins/869/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"869", "data"=>{"average_request_length"=>"0.04", "slow_request_count"=>"0", "request_count"=>"815"}}}
+ ~ {:dispatch_time=>0.03116, :action_time=>0.029601, :before_filters_time=>0.007905, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/c19192d5-3a43-430f-abd2-e91373e57557/plugins/856/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"856", "data"=>{"uptime"=>"18 day(s)"}}}
+ ~ {:dispatch_time=>0.020851, :action_time=>0.019877, :before_filters_time=>0.007569, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/ad13300a-2bf1-4846-81da-db72a7a9ee01/plugins/835/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"835", "data"=>{"uptime"=>"14 day(s)"}}}
+ ~ {:dispatch_time=>0.026935, :action_time=>0.026031, :before_filters_time=>0.008433, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/e3cfae2a-5006-406c-b575-8044f043e530/plugins/865/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"865", "data"=>{"average_request_length"=>"0.04", "slow_request_count"=>"0", "request_count"=>"832"}}}
+ ~ {:dispatch_time=>0.032386, :action_time=>0.031299, :before_filters_time=>0.007954, :after_filters_time=>7.5e-05}
+ ~ 
+
+ ~ Request: /clients/9673b782-9b9f-4d3e-a4f7-e099e58c7602/plugins/870/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"870", "data"=>{"uptime"=>"47 day(s)"}}}
+ ~ {:dispatch_time=>0.025681, :action_time=>0.024711, :before_filters_time=>0.01247, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/d9f6a3be-496e-4776-92e5-342618fe3945/plugins/928/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"928", "data"=>{"size"=>"15G", "avail"=>"13G", "used"=>"1.6G", "capacity"=>"11%"}}}
+ ~ {:dispatch_time=>0.031925, :action_time=>0.030779, :before_filters_time=>0.0077, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/e5c3b9a6-776b-455a-8318-3515b79523e9/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.026847, :action_time=>0.026373, :before_filters_time=>0.00254, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/d9f6a3be-496e-4776-92e5-342618fe3945/plugins/929/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"929", "data"=>{"command"=>"ruby", "memory"=>"49"}}}
+ ~ {:dispatch_time=>0.089478, :action_time=>0.088491, :before_filters_time=>0.007569, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/e5c3b9a6-776b-455a-8318-3515b79523e9/plugins/933/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"933", "data"=>{"command"=>"ruby", "memory"=>"33"}}}
+ ~ {:dispatch_time=>0.033956, :action_time=>0.032903, :before_filters_time=>0.008508, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/a25c502d-1c82-40df-a329-1ee98392c23a/plugins/788/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"788", "data"=>{"command"=>"mongrel_rails", "memory"=>"63"}}}
+ ~ {:dispatch_time=>0.033416, :action_time=>0.032376, :before_filters_time=>0.009164, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/a25c502d-1c82-40df-a329-1ee98392c23a/plugins/790/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"790", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ {:dispatch_time=>0.02763, :action_time=>0.026474, :before_filters_time=>0.007658, :after_filters_time=>2.0e-05}
+ ~ 
+
+ ~ Request: /clients/a25c502d-1c82-40df-a329-1ee98392c23a/plugins/791/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"791", "data"=>{"last_minute"=>"0.02", "last_fifteen_minutes"=>"0.00", "last_five_minutes"=>"0.01"}}}
+ ~ {:dispatch_time=>0.026757, :action_time=>0.025675, :before_filters_time=>0.007401, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/ab2c9f2c-f7b4-486f-8cec-6603d88a3af9/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.022696, :action_time=>0.022225, :before_filters_time=>0.002452, :after_filters_time=>2.0e-05}
+ ~ 
+
+ ~ Request: /clients/ab2c9f2c-f7b4-486f-8cec-6603d88a3af9/plugins/769/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"769", "data"=>{"last_minute"=>"0.71", "last_fifteen_minutes"=>"0.14", "last_five_minutes"=>"0.28"}}}
+ ~ {:dispatch_time=>0.027301, :action_time=>0.026154, :before_filters_time=>0.007321, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/ab2c9f2c-f7b4-486f-8cec-6603d88a3af9/plugins/772/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"772", "data"=>{"mosaicglobe"=>"68800"}}}
+ ~ {:dispatch_time=>0.019407, :action_time=>0.018509, :before_filters_time=>0.007142, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/00459914-98de-4b9a-8a28-d863a268c373/plugins.scout
+ ~ Params: {}
+ ~ {:dispatch_time=>0.018632, :action_time=>0.018223, :before_filters_time=>0.001831, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/2a3a1bfa-8fc0-43ee-b379-7d652ee78b8d/plugins.scout
+ ~ Params: {"version"=>"1.1.1"}
+ ~ {:dispatch_time=>0.024932, :action_time=>0.02445, :before_filters_time=>0.001756, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/3b29c148-662a-4ac9-aa87-59494d0cf332/plugins.scout
+ ~ Params: {"version"=>"1.1.3"}
+ ~ {:dispatch_time=>0.054127, :action_time=>0.053646, :before_filters_time=>0.002797, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/01df1f7b-677e-469d-95c3-bfc3d7874ebd/plugins.scout
+ ~ Params: {"version"=>"1.1.2"}
+ ~ {:dispatch_time=>0.056318, :action_time=>0.055861, :before_filters_time=>0.004889, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/33bc0cc7-5bdf-4b14-899e-e3271fd82616/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ {:dispatch_time=>0.089876, :action_time=>0.089435, :before_filters_time=>0.002433, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/a350b020-6c74-4ce0-bff1-759959d31721/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>0.151106, :action_time=>0.150585, :before_filters_time=>0.035369, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/f6a219a3-0b16-449a-b165-3e7737695ee6/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ Request: /clients/3144a386-81ef-4b6d-bf34-cb866fcc6f8b/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ Request: /clients/0417d891-4510-4053-99d5-9b3cb6dcf40c/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ {:dispatch_time=>0.37308, :action_time=>0.342968, :before_filters_time=>0.002133, :after_filters_time=>2.1e-05}
+ ~ Request: /clients/5d9a55cb-4415-4330-9bbb-852b59cb0db2/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ 
+
+ ~ Request: /clients/b156d2c6-3033-45f9-bdf2-fd2b9642d457/plugins.scout
+ ~ Params: {"version"=>"1.1.1"}
+ ~ Request: /clients/3060fdea-a8dd-4b4a-a821-feae32d94208/plugins.scout
+ ~ Params: {}
+ ~ Request: /clients/66cda638-4a4e-4d19-8a96-84b301a05c7e/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ {:dispatch_time=>0.281202, :action_time=>0.259933, :before_filters_time=>0.00996, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/b3094e83-cf55-4ad9-9492-b8dd46fed065/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ Request: /clients/3b29c148-662a-4ac9-aa87-59494d0cf332/plugins/232/reports.scout
+ ~ Params: {"version"=>"1.1.3", "report"=>{"plugin_id"=>"232", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ Request: /clients/cb7926c9-51b0-4248-9475-c9e124472de7/plugins.scout
+ ~ Params: {}
+ ~ Request: /clients/f6a219a3-0b16-449a-b165-3e7737695ee6/plugins/538/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"538", "data"=>{"command"=>"mongrel_rails", "memory"=>"72"}}}
+ ~ {:dispatch_time=>0.55145, :action_time=>0.541596, :before_filters_time=>0.024617, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/0579b4dd-d5b3-4512-a188-a7a0030bf22b/plugins.scout
+ ~ Params: {"version"=>"1.1.2"}
+ ~ Request: /clients/f261664b-6ba8-4236-8abf-59ca583dff8/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ Request: /clients/4e1473ac-7e59-4fd3-871b-c47a9df0b1dd/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ {:dispatch_time=>0.564498, :action_time=>0.39873, :before_filters_time=>0.004893, :after_filters_time=>2.2e-05}
+ ~ {:dispatch_time=>0.452192, :action_time=>0.003668, :after_filters_time=>1.8e-05}
+ ~ 
+
+ ~ 
+
+ ~ Request: /clients/424da46f-03e8-4ddc-a6a4-69fda447034b/plugins.scout
+ ~ Params: {}
+ ~ {:dispatch_time=>0.915099, :action_time=>0.342221, :before_filters_time=>0.004323, :after_filters_time=>2.4e-05}
+ ~ 
+
+ ~ Request: /clients/61ec196f-88dd-403b-9446-da8e4127c9dd/plugins.scout
+ ~ Params: {}
+ ~ Request: /clients/30f1507c-ab72-4c5c-90cc-da99c82ab5ea/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ {:dispatch_time=>0.782128, :action_time=>0.435997, :before_filters_time=>0.003557, :after_filters_time=>2.5e-05}
+ ~ {:dispatch_time=>0.732297, :action_time=>0.005082, :after_filters_time=>1.9e-05}
+ ~ 
+
+ ~ 
+
+ ~ Request: /clients/9f087523-2c74-48b7-95dd-6a816974875b/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ Request: /clients/3bc79ed2-a9d2-4a41-a419-0d62b5de1ab2/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ Request: /clients/a350b020-6c74-4ce0-bff1-759959d31721/plugins/622/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"622", "data"=>{"average_request_length"=>"0.01", "slow_request_count"=>"0", "request_count"=>"1"}}}
+ ~ Request: /clients/e74482d6-3628-46a4-af96-50ec9cfe6879/plugins.scout
+ ~ Params: {"version"=>"1.1.1"}
+ ~ Request: /clients/70603207-45e7-4462-806d-e6ef6f22d342/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ Request: /clients/32c8ec64-7193-4762-9acf-291d351543ee/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ Request: /clients/ce70a609-3b66-438d-a183-1781bf93650a/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ Request: /clients/a1ac9a2d-9a55-4741-9306-d4600756dc82/plugins.scout
+ ~ Params: {"version"=>"1.1.2"}
+ ~ {:dispatch_time=>1.186144, :action_time=>1.177495, :before_filters_time=>0.021087, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.991213, :action_time=>0.158629, :before_filters_time=>0.002176, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.703617, :action_time=>0.061316, :before_filters_time=>0.014803, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/472c60d0-543a-43c8-b482-6c08a87823d8/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>1.293942, :action_time=>0.301743, :before_filters_time=>0.003738, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/d191bd6d-e6dd-4dbd-bafe-e15d5404e365/plugins.scout
+ ~ Params: {"version"=>"1.1.1"}
+ ~ {:dispatch_time=>1.224826, :action_time=>0.286699, :before_filters_time=>0.002069, :after_filters_time=>2.2e-05}
+ ~ {:dispatch_time=>1.249489, :action_time=>0.057444, :before_filters_time=>0.010241, :after_filters_time=>2.5e-05}
+ ~ 
+
+ ~ Request: /clients/93155077-e52e-4332-aa4c-79f473480f8c/plugins.scout
+ ~ Params: {}
+ ~ 
+
+ ~ {:dispatch_time=>1.116056, :action_time=>0.057549, :before_filters_time=>0.013149, :after_filters_time=>2.0e-05}
+ ~ 
+
+ ~ Request: /clients/f811ac91-7939-4ff7-a5f2-68836c190e46/plugins.scout
+ ~ Params: {"version"=>"1.1.1"}
+ ~ Request: /clients/4d612009-0224-467e-8685-878154e86cc1/plugins.scout
+ ~ Params: {"version"=>"1.1.1"}
+ ~ {:dispatch_time=>0.83349, :action_time=>0.354876, :before_filters_time=>0.001847, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ {:dispatch_time=>1.23139, :action_time=>0.119331, :before_filters_time=>0.003418, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ {:dispatch_time=>1.43, :action_time=>0.185277, :before_filters_time=>0.007838, :after_filters_time=>2.5e-05}
+ ~ 
+
+ ~ {:dispatch_time=>1.158882, :action_time=>0.066598, :before_filters_time=>0.010177, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.87508, :action_time=>0.165481, :before_filters_time=>0.004621, :after_filters_time=>2.4e-05}
+ ~ 
+
+ ~ Request: /clients/010fe79b-d178-40af-a7fd-44b328759d5e/plugins.scout
+ ~ Params: {"version"=>"1.1.3"}
+ ~ {:dispatch_time=>0.933833, :action_time=>0.081161, :before_filters_time=>0.011339, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/b226cef4-d0b6-41ba-9dbb-ede1ce11647e/plugins.scout
+ ~ Params: {"version"=>"1.1.1"}
+ ~ {:dispatch_time=>0.692961, :action_time=>0.211514, :before_filters_time=>0.011336, :after_filters_time=>2.2e-05}
+ ~ Request: /clients/33bc0cc7-5bdf-4b14-899e-e3271fd82616/plugins/581/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"581", "data"=>{"enleitenweb"=>"1", "dogfood"=>"1", "beta"=>"1"}}}
+ ~ 
+
+ ~ Request: /clients/2d6edf49-12f7-4166-8847-ba12a525777d/plugins.scout
+ ~ Params: {"version"=>"1.1.2"}
+ ~ Request: /clients/7488b175-691e-46a6-bf43-da4f0786c125/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ {:dispatch_time=>1.647481, :action_time=>0.301925, :before_filters_time=>0.008137, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/b3094e83-cf55-4ad9-9492-b8dd46fed065/plugins/477/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"477", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ {:dispatch_time=>0.754716, :action_time=>0.29957, :before_filters_time=>0.002633, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/94276829-af2e-4358-8f67-7b6015cea985/plugins.scout
+ ~ Params: {"version"=>"1.1.1"}
+ ~ {:dispatch_time=>1.691149, :action_time=>0.125042, :before_filters_time=>0.003723, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/a4391117-0505-4bed-8733-2e2b10685025/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ Request: /clients/5d9a55cb-4415-4330-9bbb-852b59cb0db2/plugins/425/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"425", "data"=>{"last_minute"=>"0.00", "last_fifteen_minutes"=>"0.00", "last_five_minutes"=>"0.01"}}}
+ ~ Request: /clients/30f1507c-ab72-4c5c-90cc-da99c82ab5ea/plugins/445/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"445", "data"=>{"average_request_length"=>"0.01", "slow_request_count"=>"0", "request_count"=>"1"}}}
+ ~ {:dispatch_time=>0.798552, :action_time=>0.22372, :before_filters_time=>0.002689, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ {:dispatch_time=>1.698356, :action_time=>0.071478, :before_filters_time=>0.002179, :after_filters_time=>2.2e-05}
+ ~ Request: /clients/4e1473ac-7e59-4fd3-871b-c47a9df0b1dd/plugins/416/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"416", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ 
+
+ ~ Request: /clients/9f087523-2c74-48b7-95dd-6a816974875b/plugins/249/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"249", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.750174, :action_time=>0.14724, :before_filters_time=>0.009349, :after_filters_time=>2.3e-05}
+ ~ Request: /clients/19bfdbf2-d98b-4932-ab01-9ed1bef8c8f3/plugins.scout
+ ~ Params: {}
+ ~ 
+
+ ~ {:dispatch_time=>1.425939, :action_time=>0.091802, :before_filters_time=>0.002189, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/9128c91a-0cad-416a-afd7-d6769693467e/plugins/666/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"666", "data"=>{"command"=>"apache2", "memory"=>"7"}}}
+ ~ {:dispatch_time=>0.530294, :action_time=>0.129694, :before_filters_time=>0.002315, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.384611, :action_time=>0.067729, :before_filters_time=>0.009378, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/8d99bb3a-78d4-4bab-933e-392385592c99/plugins.scout
+ ~ Params: {}
+ ~ {:dispatch_time=>0.432651, :action_time=>0.052568, :before_filters_time=>0.004352, :after_filters_time=>2.0e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.70932, :action_time=>0.198237, :before_filters_time=>0.004113, :after_filters_time=>2.3e-05}
+ ~ Request: /clients/438a423a-5e55-44f1-ac76-a32ab2c76c6b/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ 
+
+ ~ {:dispatch_time=>0.489219, :action_time=>0.081775, :before_filters_time=>0.022928, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.495268, :action_time=>0.073716, :before_filters_time=>0.029615, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.483057, :action_time=>0.088195, :before_filters_time=>0.020949, :after_filters_time=>8.2e-05}
+ ~ {:dispatch_time=>0.425205, :action_time=>0.085126, :before_filters_time=>0.044478, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ 
+
+ ~ {:dispatch_time=>0.361753, :action_time=>0.046594, :before_filters_time=>0.013298, :after_filters_time=>2.3e-05}
+ ~ Request: /clients/8abe8f6b-c57b-4dd0-945b-e1fa6b4dd8af/plugins/361/reports.scout
+ ~ Params: {"version"=>"1.1.3", "report"=>{"plugin_id"=>"361", "data"=>{"command"=>"thin", "memory"=>"151"}}}
+ ~ 
+
+ ~ {:dispatch_time=>0.286951, :action_time=>0.063189, :before_filters_time=>0.0022, :after_filters_time=>2.1e-05}
+ ~ Request: /clients/c5fc83b9-8d70-456e-862b-d137d018c6c9/plugins/393/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"393", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ {:dispatch_time=>0.462302, :action_time=>0.096098, :before_filters_time=>0.001961, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ 
+
+ ~ {:dispatch_time=>0.134407, :action_time=>0.088384, :before_filters_time=>0.013745, :after_filters_time=>2.4e-05}
+ ~ 
+
+ ~ Request: /clients/0e576867-e520-414c-afa1-b8673cf22a77/plugins/458/errors.scout
+ ~ Params: {"error"=>{"plugin_id"=>"458", "body"=>"No processes found matching mongrel_rails.", "subject"=>"Command not found."}, "version"=>"1.1.5"}
+ ~ {:dispatch_time=>0.064162, :action_time=>0.051014, :before_filters_time=>0.020134, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.399529, :action_time=>0.185722, :before_filters_time=>0.002137, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/33bc0cc7-5bdf-4b14-899e-e3271fd82616/plugins/434/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"434", "data"=>{"status"=>"HTTPFound", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.260968, :action_time=>0.056525, :before_filters_time=>0.024357, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/9128c91a-0cad-416a-afd7-d6769693467e/plugins/667/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"667", "data"=>{"last_minute"=>"0.00", "last_fifteen_minutes"=>"0.00", "last_five_minutes"=>"0.00"}}}
+ ~ {:dispatch_time=>0.081212, :action_time=>0.080119, :before_filters_time=>0.011415, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.091994, :action_time=>0.074876, :before_filters_time=>0.025122, :after_filters_time=>9.6e-05}
+ ~ Request: /clients/9a812f0d-198d-472d-8d99-a313afc07d5a/plugins/523/errors.scout
+ ~ Params: {"error"=>{"plugin_id"=>"523", "body"=>"An exception was thrown:  No such file or directory - /etc/mongrel_cluster", "subject"=>"Couldn't monitor the server."}, "version"=>"1.1.5"}
+ ~ 
+
+ ~ {:dispatch_time=>0.040993, :action_time=>0.040068, :before_filters_time=>0.023971, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/8abe8f6b-c57b-4dd0-945b-e1fa6b4dd8af/plugins/362/reports.scout
+ ~ Params: {"version"=>"1.1.3", "report"=>{"plugin_id"=>"362", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ {:dispatch_time=>0.045686, :action_time=>0.042798, :before_filters_time=>0.010717, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/6facd2a6-78de-48b4-b55f-6842f916cbd7/plugins/945/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"945", "data"=>{"last_minute"=>"0.04", "last_fifteen_minutes"=>"0.00", "last_five_minutes"=>"0.02"}}}
+ ~ {:dispatch_time=>0.048919, :action_time=>0.046905, :before_filters_time=>0.008202, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/70603207-45e7-4462-806d-e6ef6f22d342/plugins/460/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"460", "data"=>{"command"=>"php-cgi", "memory"=>"10"}}}
+ ~ Request: /clients/f3c5da69-d674-4cb9-9171-07ac6e00ab30/plugins/547/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"547", "data"=>{"command"=>"ruby", "memory"=>"50"}}}
+ ~ Request: /clients/c4969012-b7f8-4b48-8dc4-a6146f56d78b/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ Request: /clients/30f1507c-ab72-4c5c-90cc-da99c82ab5ea/plugins/457/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"457", "data"=>{"last_minute"=>"0.00", "last_fifteen_minutes"=>"0.00", "last_five_minutes"=>"0.00"}}}
+ ~ Request: /clients/7ba14419-0c0f-4cfb-a745-7cbfdc405549/plugins.scout
+ ~ Params: {"version"=>"1.1.6"}
+ ~ {:dispatch_time=>1.834578, :action_time=>0.882444, :before_filters_time=>0.001987, :after_filters_time=>2.3e-05}
+ ~ Request: /clients/0e576867-e520-414c-afa1-b8673cf22a77/plugins/500/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"500", "data"=>{"command"=>"mysqld", "memory"=>"8"}}}
+ ~ 
+
+ ~ {:dispatch_time=>1.504222, :action_time=>0.057617, :before_filters_time=>0.005433, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ {:dispatch_time=>1.515221, :action_time=>0.041322, :before_filters_time=>0.002188, :after_filters_time=>2.0e-05}
+ ~ 
+
+ ~ {:dispatch_time=>1.327533, :action_time=>0.084071, :before_filters_time=>0.004005, :after_filters_time=>2.3e-05}
+ ~ Request: /clients/8abe8f6b-c57b-4dd0-945b-e1fa6b4dd8af/plugins/365/reports.scout
+ ~ Params: {"version"=>"1.1.3", "report"=>{"plugin_id"=>"365", "data"=>{"size"=>"19G", "avail"=>"6.8G", "used"=>"12G", "capacity"=>"63%"}}}
+ ~ {:dispatch_time=>0.12544, :action_time=>0.124017, :before_filters_time=>0.042274, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ 
+
+ ~ {:dispatch_time=>1.26132, :action_time=>0.119294, :before_filters_time=>0.041099, :after_filters_time=>2.1e-05}
+ ~ {:dispatch_time=>1.120588, :action_time=>0.031669, :before_filters_time=>0.010039, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ 
+
+ ~ Request: /clients/5e657d8f-d376-4d50-91d3-dc20382d54fc/plugins/4/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"4", "data"=>{"last_minute"=>"0.14", "last_fifteen_minutes"=>"0.12", "last_five_minutes"=>"0.14"}}}
+ ~ {:dispatch_time=>0.145542, :action_time=>0.142823, :before_filters_time=>0.021338, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/c5fc83b9-8d70-456e-862b-d137d018c6c9/plugins/392/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"392", "data"=>{"uptime"=>"23 day(s)"}}}
+ ~ {:dispatch_time=>1.016353, :action_time=>0.10728, :before_filters_time=>0.014298, :after_filters_time=>2.5e-05}
+ ~ 
+
+ ~ Request: /clients/d5f13a74-ecb3-40f8-9e76-6cb2ceea5d18/plugins/683/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"683", "data"=>{"size"=>"80G", "avail"=>"78G", "used"=>"2.7G", "capacity"=>"4%"}}}
+ ~ {:dispatch_time=>0.164644, :action_time=>0.162447, :before_filters_time=>0.017658, :after_filters_time=>2.1e-05}
+ ~ Request: /clients/33bc0cc7-5bdf-4b14-899e-e3271fd82616/plugins/487/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"487", "data"=>{"size"=>"15G", "avail"=>"3.2G", "used"=>"12G", "capacity"=>"79%"}}}
+ ~ 
+
+ ~ Request: /clients/a338a4a7-29b4-4b52-b5aa-570eaec9d449/plugins/439/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"439", "data"=>{"demo-1.mongrel_cluster"=>"1"}}}
+ ~ {:dispatch_time=>0.113461, :action_time=>0.112542, :before_filters_time=>0.029428, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.134775, :action_time=>0.133504, :before_filters_time=>0.027737, :after_filters_time=>2.1e-05}
+ ~ Request: /clients/39edf73d-72a9-4fe2-bed1-a34581d7412a/plugins/269/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"269", "data"=>{"command"=>"apache2", "memory"=>"9"}}}
+ ~ 
+
+ ~ {:dispatch_time=>0.067929, :action_time=>0.066983, :before_filters_time=>0.015772, :after_filters_time=>2.0e-05}
+ ~ 
+
+ ~ Request: /clients/a350b020-6c74-4ce0-bff1-759959d31721/plugins/653/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"653", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.045993, :action_time=>0.044999, :before_filters_time=>0.021426, :after_filters_time=>0.000171}
+ ~ 
+
+ ~ Request: /clients/5e657d8f-d376-4d50-91d3-dc20382d54fc/plugins/6/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"6", "data"=>{"uptime"=>"34 days"}}}
+ ~ {:dispatch_time=>0.080151, :action_time=>0.079255, :before_filters_time=>0.024807, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/a338a4a7-29b4-4b52-b5aa-570eaec9d449/plugins/440/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"440", "data"=>{"last_minute"=>"0.01", "last_fifteen_minutes"=>"0.01", "last_five_minutes"=>"0.05"}}}
+ ~ {:dispatch_time=>0.074428, :action_time=>0.073331, :before_filters_time=>0.008671, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/39edf73d-72a9-4fe2-bed1-a34581d7412a/plugins/651/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"651", "data"=>{"last_minute"=>"0.00", "last_fifteen_minutes"=>"0.00", "last_five_minutes"=>"0.00"}}}
+ ~ {:dispatch_time=>0.034889, :action_time=>0.033682, :before_filters_time=>0.007132, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/4d612009-0224-467e-8685-878154e86cc1/plugins/298/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"298", "data"=>{"size"=>"9.4G", "avail"=>"6.2G", "used"=>"2.8G", "capacity"=>"31%"}}}
+ ~ {:dispatch_time=>0.077392, :action_time=>0.07539, :before_filters_time=>0.027731, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/79be5e5c-6b6f-446e-8d7a-e0ef10dc161d/plugins/704/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"704", "data"=>{"size"=>"39G", "avail"=>"15G", "used"=>"24G", "capacity"=>"62%"}}}
+ ~ {:dispatch_time=>0.053662, :action_time=>0.052353, :before_filters_time=>0.011933, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/3da1d60c-5af2-4263-b0f0-1d76faa6a1a3/plugins/17/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"17", "data"=>{"last_minute"=>"0.16", "last_fifteen_minutes"=>"0.08", "last_five_minutes"=>"0.09"}}}
+ ~ {:dispatch_time=>0.032685, :action_time=>0.031628, :before_filters_time=>0.008528, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/7488b175-691e-46a6-bf43-da4f0786c125/plugins/478/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"478", "data"=>{"average_request_length"=>"0.26", "slow_request_count"=>"0", "request_count"=>"7"}}}
+ ~ Request: /clients/b3094e83-cf55-4ad9-9492-b8dd46fed065/plugins/480/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"480", "data"=>{"command"=>"mongrel_rails", "memory"=>"53"}}}
+ ~ Request: /clients/3a37bb01-776e-4705-bd51-edf9c9f88048/plugins/625/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"625", "data"=>{"uptime"=>"38 days"}}}
+ ~ Request: /clients/472c60d0-543a-43c8-b482-6c08a87823d8/plugins/887/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"887", "data"=>{"last_minute"=>"0.00", "last_fifteen_minutes"=>"0.00", "last_five_minutes"=>"0.00"}}}
+ ~ Request: /clients/450a4ff0-5731-4697-862c-2e42e534a59d/plugins/636/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"636", "data"=>{"eth0_out_packets_per_second"=>"0", "eth0_in_packets_per_second"=>"0", "eth0_in_bytes_per_second"=>"51", "eth0_out_bytes_per_second"=>"11"}}}
+ ~ {:dispatch_time=>1.773744, :action_time=>0.80618, :before_filters_time=>0.016903, :after_filters_time=>2.3e-05}
+ ~ Request: /clients/5e657d8f-d376-4d50-91d3-dc20382d54fc/plugins/8/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"8", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.042859, :action_time=>0.040807, :before_filters_time=>0.011365, :after_filters_time=>2.0e-05}
+ ~ 
+
+ ~ 
+
+ ~ {:dispatch_time=>1.592496, :action_time=>0.045632, :before_filters_time=>0.011803, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ {:dispatch_time=>1.592734, :action_time=>0.037465, :before_filters_time=>0.002001, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ {:dispatch_time=>1.390217, :action_time=>0.068171, :before_filters_time=>0.007027, :after_filters_time=>2.1e-05}
+ ~ {:dispatch_time=>1.000758, :action_time=>0.018101, :before_filters_time=>0.006901, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ 
+
+ ~ Request: /clients/f3c5da69-d674-4cb9-9171-07ac6e00ab30/plugins/548/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"548", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ {:dispatch_time=>0.977584, :action_time=>0.054778, :before_filters_time=>0.023608, :after_filters_time=>2.2e-05}
+ ~ {:dispatch_time=>0.035819, :action_time=>0.027911, :before_filters_time=>0.006865, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/82abf28b-d80a-4782-963f-f08e7c160630/plugins/136/reports.scout
+ ~ Params: {"report"=>{"plugin_id"=>"136"}}
+ ~ {:dispatch_time=>0.026147, :action_time=>0.025443, :before_filters_time=>0.018039, :after_filters_time=>2.0e-05}
+ ~ 
+
+ ~ 
+
+ ~ {:dispatch_time=>0.762207, :action_time=>0.049803, :before_filters_time=>0.007474, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/79be5e5c-6b6f-446e-8d7a-e0ef10dc161d/plugins/705/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"705", "data"=>{"last_minute"=>"0.19", "last_fifteen_minutes"=>"0.11", "last_five_minutes"=>"0.17"}}}
+ ~ {:dispatch_time=>0.078675, :action_time=>0.077611, :before_filters_time=>0.023287, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.528116, :action_time=>0.047142, :before_filters_time=>0.009963, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/1b495e3b-812e-4513-bf40-b93b9572ce66/plugins.scout
+ ~ Params: {"version"=>"1.1.2"}
+ ~ {:dispatch_time=>0.036167, :action_time=>0.035718, :before_filters_time=>0.001841, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/94276829-af2e-4358-8f67-7b6015cea985/plugins/3/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"3", "data"=>{"uptime"=>"33 days"}}}
+ ~ {:dispatch_time=>0.555148, :action_time=>0.101039, :before_filters_time=>0.030555, :after_filters_time=>2.3e-05}
+ ~ {:dispatch_time=>1.099103, :action_time=>0.038283, :before_filters_time=>0.01677, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.098959, :action_time=>0.030601, :before_filters_time=>0.010366, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ 
+
+ ~ Request: /clients/6ebe80ca-8b03-4968-86a1-a2a96a1e8200/plugins/12/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"12", "data"=>{"uptime"=>"23 days"}}}
+ ~ {:dispatch_time=>0.053733, :action_time=>0.052773, :before_filters_time=>0.02148, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/ce70a609-3b66-438d-a183-1781bf93650a/plugins/471/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"471", "data"=>{"last_minute"=>"0.25", "last_fifteen_minutes"=>"0.45", "last_five_minutes"=>"0.42"}}}
+ ~ Request: /clients/58ecbfd6-9deb-4a50-9c4e-96cf7471c1d1/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ {:dispatch_time=>0.074364, :action_time=>0.058723, :before_filters_time=>0.009044, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ {:dispatch_time=>0.068985, :action_time=>0.046078, :before_filters_time=>0.002722, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/19706f44-6421-41ae-ac61-da05ac3afb3e/plugins/893/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"893", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ {:dispatch_time=>0.066676, :action_time=>0.065477, :before_filters_time=>0.009894, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/3a37bb01-776e-4705-bd51-edf9c9f88048/plugins/626/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"626", "data"=>{"last_minute"=>"0.08", "last_fifteen_minutes"=>"0.01", "last_five_minutes"=>"0.02"}}}
+ ~ {:dispatch_time=>0.045776, :action_time=>0.044718, :before_filters_time=>0.026008, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/472c60d0-543a-43c8-b482-6c08a87823d8/plugins/889/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"889", "data"=>{"average_request_length"=>"0.59", "slow_request_count"=>"0", "request_count"=>"3"}}}
+ ~ {:dispatch_time=>0.052309, :action_time=>0.048899, :before_filters_time=>0.014456, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/6ebe80ca-8b03-4968-86a1-a2a96a1e8200/plugins/28/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"28", "data"=>{"size"=>"197G", "avail"=>"175G", "used"=>"13G", "capacity"=>"7%"}}}
+ ~ {:dispatch_time=>0.05363, :action_time=>0.052413, :before_filters_time=>0.010741, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/c4969012-b7f8-4b48-8dc4-a6146f56d78b/plugins/387/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"387", "data"=>{"median_request_length"=>"0.04", "request_length_90"=>"0.28", "average_request_length"=>"0.11", "slow_request_count"=>"0", "request_length_95"=>"0.49", "uq_request_length"=>"0.14", "min_request_length"=>"0.01", "request_length_99"=>"0.54", "lq_request_length"=>"0.02", "request_count"=>"198", "max_request_length"=>"0.78"}}}
+ ~ {:dispatch_time=>0.079493, :action_time=>0.077562, :before_filters_time=>0.013236, :after_filters_time=>2.4e-05}
+ ~ 
+
+ ~ Request: /clients/2901d7f7-3a59-4c13-8732-04e635c7582c/plugins/433/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"433", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.023186, :action_time=>0.022181, :before_filters_time=>0.006907, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/6ecdd322-0d17-4cb8-9b2c-a12c4541753e/plugins.scout
+ ~ Params: {"version"=>"1.1.1"}
+ ~ {:dispatch_time=>0.047206, :action_time=>0.046756, :before_filters_time=>0.001932, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/3144a386-81ef-4b6d-bf34-cb866fcc6f8b/plugins/376/reports.scout
+ ~ Params: {"version"=>"1.1.5", "report"=>{"plugin_id"=>"376", "data"=>{"command"=>"mongrel_rails", "memory"=>"145"}}}
+ ~ {:dispatch_time=>0.02626, :action_time=>0.025213, :before_filters_time=>0.008314, :after_filters_time=>2.0e-05}
+ ~ 
+
+ ~ Request: /clients/6ecdd322-0d17-4cb8-9b2c-a12c4541753e/plugins/20/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"20", "data"=>{"command"=>"mongrel_rails", "memory"=>"55"}}}
+ ~ {:dispatch_time=>0.052812, :action_time=>0.05128, :before_filters_time=>0.010816, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/6ecdd322-0d17-4cb8-9b2c-a12c4541753e/plugins/21/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"21", "data"=>{"last_minute"=>"0.51", "last_fifteen_minutes"=>"0.19", "last_five_minutes"=>"0.23"}}}
+ ~ {:dispatch_time=>0.036065, :action_time=>0.034885, :before_filters_time=>0.008327, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/6ecdd322-0d17-4cb8-9b2c-a12c4541753e/plugins/24/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"24", "data"=>{"average_request_length"=>"0.02", "slow_request_count"=>"0", "request_count"=>"65"}}}
+ ~ {:dispatch_time=>0.02841, :action_time=>0.027332, :before_filters_time=>0.00871, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/6ecdd322-0d17-4cb8-9b2c-a12c4541753e/plugins/91/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"91", "data"=>{"average_request_length"=>"", "slow_request_count"=>"0", "request_count"=>"0"}}}
+ ~ {:dispatch_time=>0.033487, :action_time=>0.032431, :before_filters_time=>0.007905, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/472c60d0-543a-43c8-b482-6c08a87823d8/plugins/941/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"941", "data"=>{"completed_transcodings"=>"0", "pending_transcodings"=>"5"}}}
+ ~ {:dispatch_time=>0.025891, :action_time=>0.024857, :before_filters_time=>0.009999, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/472c60d0-543a-43c8-b482-6c08a87823d8/plugins/942/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"942", "data"=>{"count"=>"1"}}}
+ ~ {:dispatch_time=>0.021238, :action_time=>0.020323, :before_filters_time=>0.008196, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/6ecdd322-0d17-4cb8-9b2c-a12c4541753e/plugins/875/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"875", "data"=>{"command"=>"merb", "memory"=>"26"}}}
+ ~ {:dispatch_time=>0.03432, :action_time=>0.033321, :before_filters_time=>0.012495, :after_filters_time=>2.4e-05}
+ ~ 
+
+ ~ Request: /clients/b02f0db6-4a09-4788-ac38-1bfa77d9701b/plugins/550/reports.scout
+ ~ Params: {"version"=>"1.1.6", "report"=>{"plugin_id"=>"550", "data"=>{"size"=>"20G", "avail"=>"3.5G", "used"=>"15G", "capacity"=>"82%"}}}
+ ~ {:dispatch_time=>0.042406, :action_time=>0.041256, :before_filters_time=>0.009488, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/73177159-7ba0-4520-9c8c-a0394b8c8006/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ {:dispatch_time=>0.02274, :action_time=>0.022279, :before_filters_time=>0.002114, :after_filters_time=>2.4e-05}
+ ~ 
+
+ ~ Request: /clients/8d99bb3a-78d4-4bab-933e-392385592c99/plugins/293/reports.scout
+ ~ Params: {"report"=>{"plugin_id"=>"293", "data"=>{"theveaders"=>"1", "30boxes"=>"1", "sleuth"=>"1"}}}
+ ~ {:dispatch_time=>0.0952, :action_time=>0.094176, :before_filters_time=>0.02815, :after_filters_time=>2.3e-05}
+ ~ 
+
+ ~ Request: /clients/e1698afd-87e3-41ca-bab0-7bffa3074572/plugins.scout
+ ~ Params: {"version"=>"1.1.2"}
+ ~ {:dispatch_time=>0.025002, :action_time=>0.024541, :before_filters_time=>0.003864, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/94276829-af2e-4358-8f67-7b6015cea985/plugins/7/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"7", "data"=>{"status"=>"HTTPOK", "up"=>"1"}}}
+ ~ {:dispatch_time=>0.02153, :action_time=>0.020547, :before_filters_time=>0.006489, :after_filters_time=>2.1e-05}
+ ~ 
+
+ ~ Request: /clients/94276829-af2e-4358-8f67-7b6015cea985/plugins/35/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"35", "data"=>{"size"=>"9.9G", "avail"=>"4.1G", "used"=>"5.4G", "capacity"=>"58%"}}}
+ ~ {:dispatch_time=>0.028058, :action_time=>0.026899, :before_filters_time=>0.006583, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/94276829-af2e-4358-8f67-7b6015cea985/plugins/901/reports.scout
+ ~ Params: {"version"=>"1.1.1", "report"=>{"plugin_id"=>"901", "data"=>{"% Swap Used"=>"6", "Swap Total"=>"255", "% Memory Used"=>"48", "Memory Used"=>"125", "Memory Total"=>"256", "Swap Used"=>"17"}}}
+ ~ {:dispatch_time=>0.095421, :action_time=>0.094067, :before_filters_time=>0.006729, :after_filters_time=>2.2e-05}
+ ~ 
+
+ ~ Request: /clients/3722d865-de2a-43af-8028-e60cab907000/plugins.scout
+ ~ Params: {"version"=>"1.1.5"}
+ ~ {:dispatch_time=>0.016173, :action_time=>0.015641, :before_filters_time=>0.002034, :after_filters_time=>2.3e-05}
+ ~ 
+

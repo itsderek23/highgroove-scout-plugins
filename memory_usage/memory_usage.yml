@@ -1,0 +1,9 @@
+options:
+  max_swap_used:
+    name: Max Swap Used (MB)
+    notes: If swap is larger than this amount, an alert is generated. Amount should be in MB.
+    default: 2048  # 2 GB
+  max_swap_ratio:
+    name: Max Swap Ratio
+    notes: If swap used over memory used is larger than this amount, an alert is generated
+    default: 3

@@ -1,0 +1,5 @@
+options:
+  terms:
+    name: Term(s)
+    notes: The terms to search for. Separate multiple terms with a comma.
+

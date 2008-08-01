@@ -1,0 +1,14 @@
+~ Request: /clients/60b5d8bd-da14-4fe7-b4cb-b4b7e9942594/plugins/374/reports.scout
+~ Params: {"version"=>"1.1.3", "report"=>{"plugin_id"=>"374", "data"=>{"size"=>"4.8G", "avail"=>"3.3G", "used"=>"1.1G", "capacity"=>"25%"}}}
+~ {:dispatch_time=>0.027427, :action_time=>0.026283, :before_filters_time=>0.006347, :after_filters_time=>2.1e-05}
+~ 
+
+~ Request: /clients/e165c829-3ef9-4add-9fc7-8e187592daff/plugins/126/reports.scout
+~ Params: {"report"=>{"plugin_id"=>"126", "data"=>{"average_request_length"=>"0.42", "slow_request_count"=>"0", "request_count"=>"1"}}}
+~ {:dispatch_time=>0.024255, :action_time=>0.023236, :before_filters_time=>0.006237, :after_filters_time=>2.1e-05}
+~ 
+
+~ Request: /clients/e165c829-3ef9-4add-9fc7-8e187592daff/plugins/127/reports.scout
+~ Params: {"report"=>{"plugin_id"=>"127", "data"=>{"last_minute"=>"0.57", "last_fifteen_minutes"=>"0.19", "last_five_minutes"=>"0.27"}}}
+~ {:dispatch_time=>0.024486, :action_time=>0.023406, :before_filters_time=>0.00648, :after_filters_time=>2.1e-05}
+~ 

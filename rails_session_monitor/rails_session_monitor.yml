@@ -1,0 +1,13 @@
+options:
+  days_for_old_sessions:
+    name: Days for Old Sessions
+    notes: Sessions older than this amount (in days) will be deleted.
+    default: 30
+  path_to_app:
+    name: Full Path to Rails Application
+    notes: The full path to the Rails application you wish to monitor sessions for. Omit the trailing slash.
+    default: /var/www/apps/APP_NAME/current
+  rails_env:
+    name: Rails Environment
+    notes: 'The Rails environment to run the plugin under (ie: production, development, test).'
+    default: production

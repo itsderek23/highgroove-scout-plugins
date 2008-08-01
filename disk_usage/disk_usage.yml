@@ -1,0 +1,9 @@
+options:
+  command:
+    name: df Command
+    notes: The command used to display free disk space
+    default: "df -h"
+  max_capacity:
+    name: Max Capacity %
+    notes: If the capacity percentage is larger than this amount, an alert is generated
+    default: 90

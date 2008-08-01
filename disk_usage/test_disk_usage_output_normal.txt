@@ -1,0 +1,8 @@
+Filesystem      Size   Used  Avail Capacity  Mounted on
+/dev/disk0s2   233Gi   55Gi  177Gi    24%    /
+devfs          112Ki  112Ki    0Bi   100%    /dev
+fdesc          1.0Ki  1.0Ki    0Bi   100%    /dev
+map -hosts       0Bi    0Bi    0Bi   100%    /net
+map auto_home    0Bi    0Bi    0Bi   100%    /home
+/dev/disk2s2    10Gi   36Mi   10Gi     1%    /Volumes/seebq
+/dev/disk1s3   233Gi  149Gi   84Gi    64%    /Volumes/BACKUP

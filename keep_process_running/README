@@ -1,0 +1,27 @@
+Keep Process Running
+======================
+Created by 
+ * [Highgroove Studios LLC](http://www.highgroove.com)
+
+Dependencies
+------------
+
+No dependencies.
+	
+Options
+-------
+
+Process to Monitor: takes in the full path to a process to monitor, i.e.:
+
+  ruby script/runner script/ferret_start
+  
+Restart Action: the optional command to run (if no restart action given, the process itself is used) to restart the process if it is not running, i.e.:
+
+  cd /path/to/rails/app && /usr/bin/ruby /path/to/rails/appscript/runner /path/to/rails_app/script/ferret_start
+
+Compatibility 
+-------------
+
+Works on Linux and OSX.
+
+

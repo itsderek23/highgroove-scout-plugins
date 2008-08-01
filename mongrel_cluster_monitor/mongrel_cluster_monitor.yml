@@ -1,0 +1,11 @@
+options:
+  mongrel_cluster_configuration_dir:
+    name: Mongrel Cluster Configuration Directory
+    notes: The directory where mongrel configurations are stored.
+    default: /etc/mongrel_cluster
+  mongrel_rails_command:
+    name: Mongrel Rails Command
+    notes: The full path to the mongrel_rails command.
+    default: /usr/bin/mongrel_rails
+    
+
