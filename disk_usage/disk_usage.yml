@@ -3,6 +3,10 @@ options:
     name: df Command
     notes: The command used to display free disk space
     default: "df -h"
+  filesystem:
+    name: Filesystem
+    notes: The filesystem to check usage, if none specified, uses the first listed
+    default: 
   max_capacity:
     name: Max Capacity %
     notes: If the capacity percentage is larger than this amount, an alert is generated

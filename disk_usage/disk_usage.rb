@@ -1,49 +1,62 @@
 class DiskUsage < Scout::Plugin
+
+  # the Disk Freespace RegEx
+  DF_RE = /\A\s*(\S.*?)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s*\z/
+
+  # Parses the file systems lines according to the Regular Expression
+  # DF_RE.
+  # 
+  # normal line ex:
+  # /dev/disk0s2   233Gi   55Gi  177Gi    24%    /
+  
+  # multi-line ex:
+  # /dev/mapper/VolGroup00-LogVol00
+  #                        29G   25G  2.5G  92% /
+  #
+  def parse_file_systems(io, &line_handler)
+    line_handler ||= lambda { |row| pp row }
+    headers      =   nil
+
+    row = ""
+    io.each do |line|
+      if headers.nil? and line =~ /\AFilesystem/
+        headers = line.split(" ", 6)
+      else
+        row << line
+        if row =~  DF_RE
+          fields = $~.captures
+          line_handler[headers ? Hash[*headers.zip(fields).flatten] : fields]
+          row = ""
+        end
+      end
+    end
+  end
   
   def run
     df_command   = @options["command"] || "df -h"
     df_output    = `#{df_command}`
     
-    # normal line ex:
-    # /dev/disk0s2   233Gi   55Gi  177Gi    24%    /
+    report       = {:report => Hash.new, :alerts => Array.new}
+        
+    df_lines = []
+    parse_file_systems(df_output) { |row| df_lines << row }
     
-    # multi-line ex:
-    # /dev/mapper/VolGroup00-LogVol00
-    #                        29G   25G  2.5G  92% /
-
-    df_lines      = df_output.to_a
-    df_columns    = df_lines.first.downcase.sub("use%", "capacity").split
-    df_data       = df_lines[1..-1]
-
-    line_index = 1
-    while !df_data.empty?
-    df_data.each_with_index do |df_data_line, idx|
-      puts df_data_line.split.size
-      if df_data_line.split.size != 6  # we have a multiline
-        df_data_line[idx] << df_data_line
-      else
-        df_data_lines << df_data_line
-        line = ""
+    # if the user specified a filesystem use that
+    df_line = nil
+    if @options["filesystem"]
+      df_lines.each do |line|
+        if line.has_value?(@options["filesystem"])
+          df_line = line
+        end
       end
     end
-        
-    puts df_data_lines
-    # if df_output =~ /\A\s*(\S.*?)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s*\z/
-    #   puts $1
-    # end
-    # fields       = df_output.to_a.first.downcase.sub("use%", "capacity").split
-    # report       = {:report => Hash.new, :alerts => Array.new}
-    # puts df_output.to_a.inspect
-    # all_fields   = if df_output.to_a[1].include?("%")
-    #                  df_output.to_a[1] # first line
-    #                else
-    #                  df_output.to_a[1] + df_output.to_a[2] # both lines
-    #                end
-    # fields.zip(all_fields.split) do |name, value|
-    #   puts "name: #{name}  value: #{value}"
-    #   next unless %w[size used avail capacity].include? name
-    #   report[:report][name.to_sym] = value
-    # end
+    
+    # else just use the first line
+    df_line ||= df_lines.first
+      
+    df_line.each do |name, value|
+      report[:report][name.downcase.strip.to_sym] = value
+    end
     
     max = @options["max_capacity"].to_i
 
