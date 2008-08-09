@@ -30,13 +30,20 @@ class RailsRequests < Scout::Plugin
     last_completed = nil
     slow_requests = ''
     total_request_time = 0.0
+
+    last_run = if @options["last_run"] 
+                  Time.parse(@options["last_run"])
+               else
+                  @last_run || Time.now
+               end
+
     Elif.foreach(@options["log"]) do |line|
       if line =~ /\ACompleted in (\d+\.\d+) .+ \[(\S+)\]\Z/
         last_completed = [$1.to_f, $2]
       elsif last_completed and
             line =~ /\AProcessing .+ at (\d+-\d+-\d+ \d+:\d+:\d+)\)/
         time_of_request = Time.parse($1)
-        if time_of_request < (@last_run || (@options["last_run"] ? Time.parse(@options["last_run"]) : Time.now))
+        if time_of_request < last_run
           break
         else
           report[:report][:request_count] += 1
@@ -62,7 +69,12 @@ class RailsRequests < Scout::Plugin
     end
     report
   rescue
-    { :error => { :subject => "Couldn't parse log file.",
+    if $!.message == "undefined method `strip' for nil:NilClass"
+      { :error => {:subject => "Please provide the full path to the log file.",
+                   :body => "A full path to the Rails log file wasn't provided - you can specify the path in the plugin options."}}
+    else
+      { :error => { :subject => "Couldn't parse log file.",
                   :body    => $!.message } }
+    end
   end
 end
