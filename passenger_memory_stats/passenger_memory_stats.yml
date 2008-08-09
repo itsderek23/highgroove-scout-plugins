@@ -1,0 +1,5 @@
+options:
+  passenger_memory_stats_command:
+    name: The Passenger Memory Stats Command
+    notes: The full path to the passenger-memory-stats command.
+    default: /usr/bin/passenger-memory-stats
