@@ -3,3 +3,27 @@ options:
     name: The Passenger Memory Stats Command
     notes: The full path to the passenger-memory-stats command.
     default: /usr/bin/passenger-memory-stats
+  max_apache_processes:
+    name: Max Apache Processes
+    notes: If Apache's process count is larger than this amount, an alert is generated.  Use 0 to disable this check.
+    default: 0
+  max_apache_vmsize:
+    name: Max Apache VMSize (MB)
+    notes: If Apache's memory is larger than this amount, an alert is generated.  Use 0 to disable this check.
+    default: 2000
+  max_apache_private:
+    name: Max Apache Private Memory (MB)
+    notes: If Apache's private memory is larger than this amount, an alert is generated.  Use 0 to disable this check.
+    default: 0
+  max_passenger_processes:
+    name: Max Passenger Processes
+    notes: If Passenger's process count is larger than this amount, an alert is generated.  Use 0 to disable this check.
+    default: 0
+  max_passenger_vmsize:
+    name: Max Passenger VMSize (MB)
+    notes: If Passenger's memory is larger than this amount, an alert is generated.  Use 0 to disable this check.
+    default: 500
+  max_passenger_private:
+    name: Max Passenger Private Memory (MB)
+    notes: If Passenger's private memory is larger than this amount, an alert is generated.  Use 0 to disable this check.
+    default: 0

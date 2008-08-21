@@ -3,7 +3,28 @@ class PassengerMemoryStats < Scout::Plugin
     cmd  = option(:passenger_memory_stats_command) || "passenger-memory-stats"
     data = `#{cmd} 2>&1`
     if $?.success?
-      report(parse_data(data))
+      stats = parse_data(data)
+      report(stats)
+      stats.each do |name, total|
+        short_name = name.sub(/_total\z/, "")
+        max        = option("max_#{short_name}")
+        next unless max and max.nonzero?
+        
+        num        = total.to_f
+        mem_name   = "#{name}_failure"
+        human_name = short_name.capitalize.
+                                gsub(/_([a-z])/) { " #{$1.capitalize}"}.
+                                gsub("Vms", "VMS")
+        if num > max and not memory(mem_name)
+          alert(:subject => "Maximum #{human_name} Exceeded (#{total})")
+          remember(mem_name => true)
+        elsif num < max and memory(mem_name)
+          alert(:subject => "Maximum #{human_name} Has Dropped Below Limit (#{total})")
+          memory.delete(mem_name)
+        else
+          remember(mem_name => memory(mem_name))
+        end
+      end
     else
       error "Could not get data from command", "Error:  #{data}"
     end
