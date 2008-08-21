@@ -7,8 +7,8 @@ class PassengerMemoryStats < Scout::Plugin
       report(stats)
       stats.each do |name, total|
         short_name = name.sub(/_total\z/, "")
-        max        = option("max_#{short_name}")
-        next unless max and max.nonzero?
+        max        = option("max_#{short_name}").to_f
+        next unless max.nonzero?
         
         num        = total.to_f
         mem_name   = "#{name}_failure"
