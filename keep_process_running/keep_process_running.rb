@@ -5,6 +5,7 @@ class KeepProcessRunning < Scout::Plugin
   def run
     report = {:report => {}, :alerts => [], :memory => {}}
     process_to_monitor = @options["process_name"] || ""
+    report[:report][process_to_monitor] = 0
     restart_action     = @options["restart_action"] || process_to_monitor
     
     # Search all running processes for the process (do not match the grep 
