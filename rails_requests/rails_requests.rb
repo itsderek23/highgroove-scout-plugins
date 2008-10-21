@@ -37,12 +37,14 @@ class RailsRequests < Scout::Plugin
                   @last_run || Time.now
                end
 
+    last_run = last_run.utc
+
     Elif.foreach(@options["log"]) do |line|
       if line =~ /\ACompleted in (\d+\.\d+) .+ \[(\S+)\]\Z/
         last_completed = [$1.to_f, $2]
       elsif last_completed and
             line =~ /\AProcessing .+ at (\d+-\d+-\d+ \d+:\d+:\d+)\)/
-        time_of_request = Time.parse($1)
+        time_of_request = Time.parse($1).utc
         if time_of_request < last_run
           break
         else
