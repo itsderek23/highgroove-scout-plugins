@@ -36,8 +36,12 @@ class RailsRequests < Scout::Plugin
                else
                   @last_run || Time.now
                end
-
-    last_run = last_run
+               
+    offset = if @options["offset"]
+                 @options["offset"] * 60 * 60 # convert hours to seconds
+             else
+               0
+             end
 
     Elif.foreach(@options["log"]) do |line|
       if line =~ /\ACompleted in (\d+\.\d+) .+ \[(\S+)\]\Z/
@@ -45,7 +49,7 @@ class RailsRequests < Scout::Plugin
       elsif last_completed and
             line =~ /\AProcessing .+ at (\d+-\d+-\d+ \d+:\d+:\d+)\)/
         time_of_request = Time.parse($1)
-        if time_of_request < last_run
+        if (time_of_request - offset) < last_run
           report[:alerts] << {:subject => 'debugging', :body => "request time: #{time_of_request} \n\n offset: #{time_of_request.utc_offset} \n\n last_run: #{last_run}"}
           break
         else

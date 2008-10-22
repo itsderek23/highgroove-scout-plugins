@@ -6,3 +6,6 @@ options:
     name: Max Request Length (sec)
     notes: If any request length is larger than this amount, an alert is generated
     default: 3
+  offset:
+    name: Time Zone Offset (hours)
+    notes: If your Rails application is using local time, you can provide the offset from UTC here. For example PDT is -7.
