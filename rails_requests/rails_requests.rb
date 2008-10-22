@@ -38,7 +38,7 @@ class RailsRequests < Scout::Plugin
                end
                
     offset = if @options["offset"]
-                 @options["offset"] * 60 * 60 # convert hours to seconds
+                 @options["offset"].to_i * 60 * 60 # convert hours to seconds
              else
                0
              end
