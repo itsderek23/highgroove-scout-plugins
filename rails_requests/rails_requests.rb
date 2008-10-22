@@ -44,9 +44,9 @@ class RailsRequests < Scout::Plugin
         last_completed = [$1.to_f, $2]
       elsif last_completed and
             line =~ /\AProcessing .+ at (\d+-\d+-\d+ \d+:\d+:\d+)\)/
-        time_of_request = Time.parse($1).utc
+        time_of_request = Time.parse($1)
         if time_of_request < last_run
-          report[:alerts] << {:subject => 'debugging', :body => "request time: #{time_of_request} \n\n last_run: #{last_run}"}
+          report[:alerts] << {:subject => 'debugging', :body => "request time: #{time_of_request} \n\n offset: #{time_of_request.utc_offset} \n\n last_run: #{last_run}"}
           break
         else
           report[:report][:request_count] += 1
