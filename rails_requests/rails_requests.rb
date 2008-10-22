@@ -50,7 +50,6 @@ class RailsRequests < Scout::Plugin
             line =~ /\AProcessing .+ at (\d+-\d+-\d+ \d+:\d+:\d+)\)/
         time_of_request = Time.parse($1)
         if (time_of_request - offset) < last_run
-          report[:alerts] << {:subject => 'debugging', :body => "request time: #{time_of_request} \n\n offset: #{time_of_request.utc_offset} \n\n last_run: #{last_run}"}
           break
         else
           report[:report][:request_count] += 1
