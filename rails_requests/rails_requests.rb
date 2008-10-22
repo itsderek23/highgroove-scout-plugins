@@ -37,7 +37,7 @@ class RailsRequests < Scout::Plugin
                   @last_run || Time.now
                end
 
-    last_run = last_run.utc
+    last_run = last_run
 
     Elif.foreach(@options["log"]) do |line|
       if line =~ /\ACompleted in (\d+\.\d+) .+ \[(\S+)\]\Z/
